@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>new</title>
+</head>
+
+<body>
+  <div class="w-screen flex  h-screen  m-auto ">
+    <div class="left sm:w-1/2  m-auto flex flex-col justify-center ">
+      <div class=" sm:w-4/5 w-full m-auto xl:w-8/12">
+
+        <h1 class="text-center text-3xl">Login</h1>
+        <p class="m-5 text-center">Enter your credential to access account</p>
+
+
+        <button class="border border-gray-400 m-auto rounded w-full  py-3 mt-3 mb-3 flex justify-center items-center">
+          <img src="./Google__G__logo.svg.png" width="20px" alt="">
+          <section class="ml-2"> Login with Google </section>
+        </button>
+
+        <div class="flex w-full justify-center m-auto items-center gap-4 mt-8 mb-3">
+          <div class="w-full lg:w-44 h-[0.5px] bg-[#828282]"></div>
+          <p>Or</p>
+          <div class="w-full lg:w-44 h-[0.5px] bg-[#828282]"> </div>
+        </div>
+
+
+        <form class="flex flex-col justify-start items-start ">
+          <label for="email">Email Address </label>
+          <input type="email" id="email" name="fname" placeholder="email@gmail.com"
+            class="p-2 w-full outline outline-[0.5px] outline-[#828282] rounded-sm"> <br>
+          <label for="password" class="flex justify-between w-full">
+            <span> Password </span>
+            <span>
+              <a href="#" class="text-blue-600"> Forgot Password?</a>
+            </span>
+          </label>
+          <input type="password" id="password" name="password" placeholder="Password"
+            class="p-3 w-full outline outline-[0.5px] outline-[#828282] rounded-sm"><br>
+          <button type="submit" class="text-white w-full bg-blue-500 py-2 rounded-sm">
+            Login </button>
+          <p class="text-[#828282] mx-auto py-4"> Don't have an account? <a href="#" class="text-[#000]"> Register here
+            </a> </p>
+        </form>
+      </div>
+
+    </div>
+    <div class="right hidden sm:flex justify-center w-1/2 h-90vh m-auto">
+      <img class="h-screen " src="../../dist/young-happy-woman-with-good-idea-sign-white-shirt-full-portrait.jpg" alt="">
+    </div>
+  </div>
+</body>
+
+</html>
